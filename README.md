@@ -1,4 +1,4 @@
-# Web Scraper
+# PJS Web Scraper for Job Ads
 
 This project was developed as part of a university seminar in collaboration with **PWC (PricewaterhouseCoopers)**. The codebase is designed to be easily accessible and deployable using **Docker**, ensuring a streamlined setup process for users.
 
@@ -10,6 +10,8 @@ As a second source, I decided in favour of the Indeed portal. The decision crite
 Indeed also offers high quality and a large amount of data. However, Indeed was much more difficult to scrape. On the one hand, the HTML structure is very deeply nested and difficult to analyse. Secondly, Indeed uses Cloud-Flare as an anti-bot mechanism. Using the Scrapy framework is not enough to bypass this captcha test. 
 Even a normal Selenium browser is not sufficient. To solve the test, i decided to use Seleniumbase, an extension of Selenium, which 
 recognises and automatically solves simple captcha tests.
+
+Have a look at the complete Read-the-Docs documentation here: https://philippcraftlink.github.io/PJS_WebScraping/
 
 ---
 
@@ -68,7 +70,7 @@ By leveraging Docker, the project ensures portability and ease of deployment, ma
 
 ### bash
 
-    git clone https://github.com/PhilippCraftLink/PJS_WebScraping.git
+    git clone https://github.com/PhilippCraftLink/PJS_WebScraping/.git
     cd $path$
 
 ### Install Dependencies 
