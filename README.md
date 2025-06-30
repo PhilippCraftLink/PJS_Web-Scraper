@@ -11,7 +11,7 @@ Indeed also offers high quality and a large amount of data. However, Indeed was 
 Even a normal Selenium browser is not sufficient. To solve the test, i decided to use Seleniumbase, an extension of Selenium, which 
 recognises and automatically solves simple captcha tests.
 
-Have a look at the complete Read-the-Docs documentation here: https://philippcraftlink.github.io/PJS_WebScraping/
+Have a look at the complete Read-the-Docs documentation here: https://philippcraftlink.github.io/PJS_Web-Scraper/
 
 ---
 
